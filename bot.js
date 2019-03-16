@@ -10,7 +10,7 @@ const client = new Discord.Client({disableEveryone: true});
 
 const prefix = "$";
 
-client.login('NTIxMzE0OTg0NDg0MTQzMTA0.DvUP8A.prUV31xF7__C3cIDT-nDXTc3YhM'); 
+client.login(process.env.BOT_TOKEN); 
 
 client.on('ready',  () => {
   console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'); 
