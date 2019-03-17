@@ -644,7 +644,7 @@ var temp = {
  
 client.on("message",(message) => {
     if (message.channel.type !== "text") return;
-    if (!message.content.startsWith(prefix)) return;
+    var prefix = "$"
         if(message.content.startsWith(prefix + "temp on")) {
             if (!message.member.hasPermission("MANAGE_CHANNELS")) return message.reply("** You Don't Have Permission `Manage channels` To Do This Command");
             temp[message.guild.id] = {
