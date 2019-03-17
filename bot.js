@@ -1972,4 +1972,4 @@ client.on('message', message => {
 }
 });
 
-client.login('NTU2NTU1NzAwOTQ0NTAyODA0.D3ADQw.C5W117fpQdVzJlIi6H6vN3vSp6I'); 
+client.login(process.env.BOT_TOKEN);
