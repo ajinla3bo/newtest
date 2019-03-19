@@ -8,7 +8,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
 
-    if (message.content === "$bot") {
+    if (message.content === "+bot") {
 var year = message.guild.createdAt.getFullYear()
 var month = message.guild.createdAt.getMonth()
 var day = message.guild.createdAt.getDate()
