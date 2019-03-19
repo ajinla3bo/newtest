@@ -184,7 +184,8 @@ client.on("message", async message => {
         let help = new Discord.RichEmbed()
             .setColor("RANDOM")
             .setThumbnail(message.author.avatarURL)
-            .setDescription(`**__ajinla3bo-bot__ 
+            .setDescription(`**__ajinla3bo-bot__
+                        -----------------------------
                           _الاوامر الاداريه_
                         -----------------------------
 			+mute   | لاعطاء ميوت
@@ -194,6 +195,7 @@ client.on("message", async message => {
 			+server | معلومات السيرفر
 			+....
 			+....
+                        -----------------------------
 			_الاوامر العامه_
                         -----------------------------
 			+time  | لمعرفت الوقت
