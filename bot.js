@@ -185,7 +185,8 @@ client.on("message", async message => {
             .setColor("RANDOM")
             .setThumbnail(message.author.avatarURL)
             .setDescription(`**__ajinla3bo-bot__ 
-            _الاوامر الاداريه_
+                          _الاوامر الاداريه_
+                        -----------------------------
 			+mute   | لاعطاء ميوت
 			+unmute | لحدف الميوت
 			+clear  | لمسح الشات 
@@ -194,6 +195,7 @@ client.on("message", async message => {
 			+....
 			+....
 			_الاوامر العامه_
+                        -----------------------------
 			+time  | لمعرفت الوقت
 			+....
 			+....
